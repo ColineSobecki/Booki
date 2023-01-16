@@ -1,0 +1,215 @@
+/*--TABLETTE RESPONSIVE--*/
+
+@media screen and (max-width: 992px) {
+
+    nav p {
+        font-size: small;
+    }
+    nav h2 {
+        font-size: large;
+    }
+    nav h3 {
+        font-size: medium;
+    }
+         
+    /*--MAIN--*/
+        main {
+            display: flex;
+            align-items: center;
+            height: 680px;
+        }
+
+        main h2 {
+            font-size: large;
+        }
+        main img {
+            width: 246px;
+            height: 124px;
+        }
+        .cardhotel {
+            width: fit-content;
+        }
+    /*--ASIDE--*/
+        .bloc {
+            display: block;
+        }
+        aside {
+            height: 350px;
+            margin-left: 20px;
+            display: block;
+        }
+        .popudirection {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-between;
+        }
+        aside img {
+            width: 100px;
+            height: 140px;
+        }
+        .graph {
+            margin-left: 550px;
+        }
+        .cardpopulaire {
+            width: 250px;
+            height: 140px;
+        }
+        aside p {
+            font-size: smaller;
+        }
+        aside .stars {
+            margin-top: 0px;       
+        }
+    /*--SECTION--*/
+        .activites {
+            width: 180px;
+            height: 220px;
+        }   
+        article {
+            
+            width: 180px;
+            height: 290px;
+        }
+    /*--FOOTER--*/    
+        footer .container {
+            justify-content: center;
+            margin-left: 100px;
+            line-height: 17px;
+        }
+    }
+
+    /*--MOBILE RESPONSIVE--*/
+
+@media screen and (max-width: 768px) {
+
+    body {
+        margin-top: 0;
+    }
+    /*--HEADER--*/
+    header {
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo {
+        display: flex;
+       align-items: center;
+       width: 90px;
+    }
+    .container_nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-self: flex-end;
+    }
+    .nav_bar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  
+    .container_nav_bar1:hover {
+        border-top: none;
+        border-bottom: #0065FC solid 3px;
+    }
+    .container_nav_bar2:hover {
+        border-top: none;
+        border-bottom: #0065FC solid 3px;
+    }
+      
+    /*--NAV--*/
+
+    nav h2 {
+        font-size: 22px;
+    }
+    nav p {
+        font-size: medium;
+    }
+
+    /*--HEBERGEMENT--*/
+    .bloc {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #Directionimages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main img {
+        width: 330px;
+        height: 120px;
+    }
+
+    .cardhotel {
+        width: 330px;
+        height: 220px;
+    }
+
+    main {
+        height: 1700px;
+    }
+
+    /*--POPULAIRES--*/
+
+    aside {
+        height: 700px;
+    }
+
+    .graph {
+        margin-left: 0;
+        font-size: medium;
+    }
+    .popudirection {
+        display: flex;  
+        flex-direction: column;             
+    }
+
+    aside img {
+        height: 145px;
+        width: 140px;
+    }
+    .cardpopulaire {
+        width: 350px;
+        height: 145px;
+    }  
+
+    /*--SECTION--*/
+
+    section h2 {
+        font-size: x-large;
+    }
+    section .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
+        height: 1200px;
+    }
+    .activites {
+        width: 330px;
+        height: 200px;
+    }
+    article {
+        width: 330px;
+        height: 270px;
+    }
+    
+    section h3 {
+        margin-left: 30px;
+    }
+
+    /*--FOOTER--*/
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        margin-left: -70px;
+    }
+
+}
