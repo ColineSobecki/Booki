@@ -11,6 +11,13 @@
     nav h3 {
         font-size: medium;
     }
+    #info {
+        font-size: xx-small;
+    }
+
+    #info p  {
+        font-size: small;
+    }
          
     /*--MAIN--*/
         main {
@@ -51,7 +58,7 @@
         .graph {
             margin-left: 550px;
         }
-        .cardpopulaire {
+        .cardpopular {
             width: 250px;
             height: 140px;
         }
@@ -62,13 +69,18 @@
             margin-top: 0px;       
         }
     /*--SECTION--*/
-        .activites {
-            width: 180px;
+        section .container {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 45px;
+            margin-right: 30px;
+        }
+        .activities {
+            width: 190px;
             height: 220px;
         }   
-        article {
-            
-            width: 180px;
+        section article {            
+            width: 190px;
             height: 290px;
         }
     /*--FOOTER--*/    
@@ -96,19 +108,17 @@
     }
     .logo {
         display: flex;
-       align-items: center;
-       width: 90px;
+        width: 90px;
     }
     .container_nav {
-        width: 100%;
         height: 100%;
         display: flex;
-        align-self: flex-end;
+        justify-content: space-between;
     }
     .nav_bar {
-        width: 100%;
         display: flex;
         justify-content: center;
+        margin-bottom: 25px;
     }
   
     .container_nav_bar1:hover {
@@ -125,17 +135,75 @@
     nav h2 {
         font-size: 22px;
     }
+
     nav p {
+        justify-content: center;
+        font-size: 15px;
+    }
+    nav h3 {
+        font-size: large;
+        justify-content: center;
+    }
+
+    nav i {
+        width: 0;
+    }
+
+    .filters {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: baseline;
+        height: 200px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .box {
+        font-size: small;
+        width: 160px;
+    }
+
+    #research_button {
+        display: none;
+    }
+
+    #research_icon {
+        display: flex;
+        align-items: center;
+        background-color: #0065FC;
         font-size: medium;
+        width: 50px;
+        color: #FFFFFF;
+        font-weight: bold;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #research_icon i {
+        font-weight: bold;
+        display: flex;
+        justify-content: center;       
+    }
+
+    #info p {
+        font-size: 14px;
     }
 
     /*--HEBERGEMENT--*/
     .bloc {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
-    #Directionimages {
+    main h2 {
+        font-size: x-large;
+    }
+
+    #direction {
         display: flex;
         flex-direction: column;
     }
@@ -152,16 +220,18 @@
 
     main {
         height: 1700px;
+        margin-left: -10px;
     }
 
     /*--POPULAIRES--*/
 
     aside {
-        height: 700px;
+        height: 670px;
+        margin-left: -10px;
     }
 
     .graph {
-        margin-left: 0;
+        margin-left: 30px;
         font-size: medium;
     }
     .popudirection {
@@ -173,30 +243,35 @@
         height: 145px;
         width: 140px;
     }
-    .cardpopulaire {
+    .cardpopular {
         width: 350px;
         height: 145px;
-    }  
+    } 
+    
+    aside .stars {
+        margin-top: 40px;
+    }
 
     /*--SECTION--*/
 
     section h2 {
         font-size: x-large;
+        width: 130px;
     }
     section .container {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: fit-content;
-        height: 1200px;
+        height: 1100px;
     }
-    .activites {
+    .activities {
         width: 330px;
         height: 200px;
     }
-    article {
+    section article {
         width: 330px;
-        height: 270px;
+        height: 260px;
     }
     
     section h3 {

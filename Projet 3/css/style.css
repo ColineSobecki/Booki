@@ -62,7 +62,7 @@ header {
 }
 
 #container_nav {
-    width: 30%;
+    width: 370px;
     display: flex;
 }
 
@@ -121,7 +121,7 @@ header {
     background-color: #F4F3F3;
 }
 
-.Filtres {    
+.filters {    
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
@@ -144,6 +144,10 @@ header {
     font-size: large;  
 }
 
+#research_icon {
+    display: none;
+}
+
 .box i {
     color: #0065FC;
     font-size: larger;
@@ -160,8 +164,17 @@ nav i {
     font-size: larger; 
 }
 
-p i {
+#info {
     color: #0065FC;
+    display: flex;
+    flex-direction: row;
+    font-size: x-small;
+    align-items: center;
+}
+
+#info p {
+    color: #000000;
+    font-size: medium;
 }
 
 /*--BLOC--*/
@@ -207,7 +220,7 @@ main img {
     border-radius: 20px 20px 0px 0px;
 }
 
-#Directionimages {
+#direction {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -236,7 +249,7 @@ aside a {
     margin-left: 90px;
 }
 
-.cardpopulaire{
+.cardpopular{
     width: 340px;
     height: auto;
     margin-top: 35px;
@@ -247,12 +260,12 @@ aside a {
     cursor: pointer;
 }
 
-.cardpopulaire:hover {
+.cardpopular:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.txtpopulaire {
+.txtpopular {
     line-height: 15px;
     margin-left: 10px;
 }
@@ -295,10 +308,10 @@ section .container {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 50px;
-    margin-right: 70px;   
+    margin-right: 50px;   
 }
 
-.activites {
+.activities {
     height: 380px;
     width: 300px;
     border-radius: 20px 20px 0px 0px;
